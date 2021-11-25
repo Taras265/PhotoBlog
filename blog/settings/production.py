@@ -84,12 +84,12 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': DB_NAME,
-        'USER': DB_USER,
-        'PASSWORD': DB_PASSWORD,
-        'HOST': DB_HOST,
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'djeynDB',
+        'USER': 'admin',
+        'PASSWORD': 'GhjnjnbG_1A',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
