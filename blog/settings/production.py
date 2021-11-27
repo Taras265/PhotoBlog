@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 
+
 SECRET_KEY = 'django-insecure-7h-4bn2hn^f_)*oek-#c&*0ud8_^f)+nf-g33_qvjn(z2a!)0&'
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
