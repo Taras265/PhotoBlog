@@ -51,7 +51,8 @@
                           {% for type in types %}
                           <div class="swiper-slide">
                               {% albums type as a %}
-                            <div class="img-container" style="background: url(..{% first_photo a.pk %}) center;
+                              ..{% first_photo a.pk %}
+                            <div class="img-container" style="background: url({% first_photo a.pk %}) center;
   background-size: cover;">
                               <div class="slide-text opacity">
                                 <a href="{% url 'home:type_albums' t=type.pk %}">{{ type }}
